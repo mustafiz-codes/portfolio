@@ -30,18 +30,19 @@ function Header() {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link primary-color" href="#">
-                <span className="theme-color">02. </span>Experience
+              <a class="nav-link primary-color" href="/Skills">
+                <span className="theme-color">02. </span>Skills
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link primary-color" href="#">
-                <span className="theme-color">03. </span>Skills
+              <a class="nav-link primary-color" href="/Works">
+                <span className="theme-color">03. </span>Works
               </a>
             </li>
+
             <li class="nav-item">
               <a class="nav-link primary-color" href="#">
-                <span className="theme-color">04. </span>Works
+                <span className="theme-color">04. </span>Experiences & Achievements
               </a>
             </li>
             <li class="nav-item">

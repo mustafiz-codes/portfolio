@@ -10,9 +10,10 @@ import {
 
 import Header from './Header';
 import Home from './Home';
-import "./css/app.css";
 import About from "./About";
-  
+import Skills from "./Skills";
+import "./css/app.css";
+import Works from "./Works";
 
 
 function App() {
@@ -30,6 +31,12 @@ function App() {
           </Route>
           <Route path="/About">
             <About />
+          </Route>
+          <Route path="/Skills">
+            <Skills />
+          </Route>
+          <Route path="/Works">
+            <Works />
           </Route>
           <Route path="/">
             <Home />

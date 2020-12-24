@@ -1,36 +1,55 @@
 import React from "react";
 import "./css/style.css";
-import profileImg from "./images/profile.JPG"
+import profileImg from "./images/profile.png";
 
 function About() {
   return (
     <div className="about">
-      <h1 className="section-title">01. About Me</h1>
+      <h1 className="section-title primary-color">
+        <span className="theme-color">01.</span> About Me
+      </h1>
 
       <div className="row">
-            <div className="col-md-7">
-                <p className="about-me">
-                    Hello! I'm Brittany, a software engineer based in Boston, MA.
-                </p>
-                <p className="about-me">
-                    I enjoy creating things that live on the internet, whether that be
-                    websites, applications, or anything in between. My goal is to always
-                    build products that provide pixel-perfect, performant experiences.
-                </p>
-                <p className="about-me">
-                    Shortly after graduating from Northeastern University, I joined the
-                    engineering team at Upstatement where I work on a wide variety of
-                    interesting and meaningful projects on a daily basis.
-                </p>
-            </div>
+        <div className="col-md-4">
+          <div className="profile-img">
+            <img src={profileImg} />
+          </div>
+        </div>
 
-            <div className="col-md-5">
-                <div className="bb">
-                <img src={profileImg}/>
-                </div>
+        <div className="col-md-8">
+          <p className="about-me secondary-color">
+            Hello! I'm Mustafiz, a <span className="theme-color">web developer</span> based in Sylhet, Bangladesh.
+          </p>
+          <p className="about-me secondary-color">
+            I enjoy creating things that live on the internet, whether that be
+            websites, applications, or anything in between. My goal is to always
+            build products that provide pixel-perfect, performant experiences.
+          </p>
+          <p className="about-me secondary-color">
+            Shortly after graduating from Leading University now I am looking
+            forword to start my carrer as a software engineer.
+          </p>
+          <p className="about-me secondary-color">Interested In:</p>
+          <ul className="row">
+            <div className="col-md-3">
+              <li className="theme-color">Sports</li>
+              <li className="theme-color">Travel</li>
             </div>
+            <div className="col-md-3">
+              <li className="theme-color">Food</li>
+              <li className="theme-color">Video Gaming</li>
+            </div>
+            <div className="col-md-3">
+              <li className="theme-color">Technology</li>
+              <li className="theme-color">Gardening</li>
+            </div>
+            <div className="col-md-3">
+              <li className="theme-color">Swimming</li>
+              <li className="theme-color">Sleeping</li>
+            </div>
+          </ul>
+        </div>
       </div>
-      
     </div>
   );
 }
