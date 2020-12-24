@@ -1,0 +1,13 @@
+.app{
+    padding-left: 15%;
+    padding-right: 5%;
+    background-color: #0e1520 ;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Verdana, Tahoma, sans-serif !important;
+}
+
+p, input{
+    font-family: sans-serif !important;
+}
