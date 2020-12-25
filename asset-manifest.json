@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bfa051cb.chunk.css",
-    "main.js": "/portfolio/static/js/main.d1ebfea0.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d1ebfea0.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.3796e93d.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.3796e93d.js.map",
-    "static/js/2.3c17d2cb.chunk.js": "/portfolio/static/js/2.3c17d2cb.chunk.js",
-    "static/js/2.3c17d2cb.chunk.js.map": "/portfolio/static/js/2.3c17d2cb.chunk.js.map",
-    "static/js/3.e9fd8155.chunk.js": "/portfolio/static/js/3.e9fd8155.chunk.js",
-    "static/js/3.e9fd8155.chunk.js.map": "/portfolio/static/js/3.e9fd8155.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.ded0ca5b.chunk.css",
+    "main.js": "/portfolio/static/js/main.12539c8d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.12539c8d.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.2bfd151e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2bfd151e.js.map",
+    "static/js/2.7d607d2c.chunk.js": "/portfolio/static/js/2.7d607d2c.chunk.js",
+    "static/js/2.7d607d2c.chunk.js.map": "/portfolio/static/js/2.7d607d2c.chunk.js.map",
+    "static/js/3.3b5fe689.chunk.js": "/portfolio/static/js/3.3b5fe689.chunk.js",
+    "static/js/3.3b5fe689.chunk.js.map": "/portfolio/static/js/3.3b5fe689.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.bfa051cb.chunk.css.map": "/portfolio/static/css/main.bfa051cb.chunk.css.map",
-    "static/js/2.3c17d2cb.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3c17d2cb.chunk.js.LICENSE.txt",
+    "static/css/main.ded0ca5b.chunk.css.map": "/portfolio/static/css/main.ded0ca5b.chunk.css.map",
+    "static/js/2.7d607d2c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7d607d2c.chunk.js.LICENSE.txt",
     "static/media/airbnb.613c89c0.png": "/portfolio/static/media/airbnb.613c89c0.png",
     "static/media/amazon.26fb6b85.png": "/portfolio/static/media/amazon.26fb6b85.png",
+    "static/media/mustafizur_cv.55bb16a5.pdf": "/portfolio/static/media/mustafizur_cv.55bb16a5.pdf",
     "static/media/myriann.580450bc.png": "/portfolio/static/media/myriann.580450bc.png",
     "static/media/netflix.f6d635d7.png": "/portfolio/static/media/netflix.f6d635d7.png",
     "static/media/profile.ea3509df.png": "/portfolio/static/media/profile.ea3509df.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3796e93d.js",
-    "static/js/2.3c17d2cb.chunk.js",
-    "static/css/main.bfa051cb.chunk.css",
-    "static/js/main.d1ebfea0.chunk.js"
+    "static/js/runtime-main.2bfd151e.js",
+    "static/js/2.7d607d2c.chunk.js",
+    "static/css/main.ded0ca5b.chunk.css",
+    "static/js/main.12539c8d.chunk.js"
   ]
 }
