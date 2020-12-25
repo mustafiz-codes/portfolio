@@ -2,7 +2,7 @@ import React from "react";
 import Button from '@material-ui/core/Button';
 import './css/style.css';
 
-function home() {
+function Home() {
   return (
     <div className="home primary-bg">
       <p className="greetings theme-color">Hi, my name is</p>
@@ -22,4 +22,4 @@ function home() {
   );
 }
 
-export default home;
+export default Home;

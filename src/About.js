@@ -2,7 +2,7 @@ import React from "react";
 import "./css/style.css";
 import profileImg from "./images/profile.png";
 
-function about() {
+function About() {
   return (
     <div className="about">
       <h1 className="section-title primary-color">
@@ -54,4 +54,4 @@ function about() {
   );
 }
 
-export default about;
+export default About;

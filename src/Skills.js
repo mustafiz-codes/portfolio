@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/style.css";
 
-function skills() {
+function Skills() {
   return (
     <div className="skills">
       <h1 className="section-title primary-color">
@@ -154,4 +154,4 @@ function skills() {
   );
 }
 
-export default skills;
+export default Skills;

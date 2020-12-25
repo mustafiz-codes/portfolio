@@ -4,7 +4,7 @@ import AmazonImage from "./images/amazon.png";
 import MyriannImage from "./images/myriann.png";
 import AirbnbImage from "./images/airbnb.png";
 
-function works() {
+function Works() {
   return (
     <div className="works">
       <h1 className="section-title primary-color">
@@ -140,4 +140,4 @@ function works() {
   );
 }
 
-export default works;
+export default Works;
