@@ -9,7 +9,7 @@ function Skills() {
       </h1>
 
       <div className="skill-type">
-        <h2 className="skill-title primary-color">Prfessional Skills</h2>
+        <h2 className="sub-title primary-color">Professional Skills</h2>
         <div className="row">
           <div className="col-md-6">
             <div className="skill-set">
@@ -95,7 +95,7 @@ function Skills() {
       </div>
 
       <div className="skill-type">
-        <h2 className="skill-title primary-color">
+        <h2 className="sub-title primary-color">
           Personal Skills
         </h2>
 

@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 import Logo from "./images/logo.png";
+import CV from "./images/mustafizur_cv.pdf";
 import "./css/style.css";
 
 function Header() {
@@ -49,7 +50,7 @@ function Header() {
                 </a>
               </li>
             </Link>
-            <Link className="header-link" to="/">
+            <Link className="header-link" to="/experiences">
               <li class="nav-item">
                 <a class="nav-link primary-color">
                   <span className="theme-color">04. </span>Experiences &
@@ -57,7 +58,7 @@ function Header() {
                 </a>
               </li>
             </Link>
-            <Link className="header-link" to="/">
+            <Link className="header-link" to="/contacts">
               <li class="nav-item">
                 <a class="nav-link primary-color" >
                   <span className="theme-color">05. </span>Contacts
@@ -65,15 +66,17 @@ function Header() {
               </li>
             </Link>
           </ul>
-          <Button
-            href="#"
-            target="blank"
-            variant="outlined"
-            color="primary"
-            className="resumeButton"
-          >
-            resume
-          </Button>
+          <a href={CV} download="mustafizur_cv.pdf">
+            <Button
+              target="blank"
+              variant="outlined"
+              color="primary"
+              className="resumeButton"
+              type="submit"
+            >
+              get my cv
+            </Button>
+            </a>
         </div>
       </nav>
     </div>

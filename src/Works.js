@@ -10,17 +10,15 @@ function Works() {
       <h1 className="section-title primary-color">
         <span className="theme-color">03.</span> Works
       </h1>
-      
-      
+
       <div className="single-work">
         <h2 className="work-title theme-color">Netflix-clone</h2>
         <div className="row">
           <div className="col-md-5">
             <p className="work-details secondary-color">
-              Significant Features of Netflix Clone Script. User Registration.
-              Payment Gateway. User profile. Content search. Push Notifications.
-              Settings. Multiple language support. Admin panel or Admin
-              Dashboard
+              Significant Features of Netflix Clone Script. Practiced api
+              integration & user interface building with react.js also showed
+              the videos trailer of all movies.
             </p>
             <ul className="technology primary-color">
               <li>React Js</li>
@@ -41,59 +39,53 @@ function Works() {
           </div>
         </div>
       </div>
-      
-      
+
       <div className="single-work">
         <h2 className="work-title theme-color">Amazon-clone</h2>
         <div className="row">
-        <div className="col-md-7">
+          <div className="col-md-7">
             <img className="work-img" src={AmazonImage} />
           </div>
           <div className="col-md-5">
             <p className="work-details secondary-color">
-              Significant Features of Netflix Clone Script. User Registration.
-              Payment Gateway. User profile. Content search. Push Notifications.
-              Settings. Multiple language support. Admin panel or Admin
-              Dashboard
+              A react based webapp where I practiced react state management to
+              get & set data. I implemented add-to-cart with react.js
             </p>
             <ul className="technology primary-color">
               <li>React Js</li>
-              <li>TMDB API</li>
-              <li>API Integration</li>
+              <li>State Management</li>
+              <li>Material Ui</li>
             </ul>
             <p className="viewProject">
               <a
                 target="blank"
-                href="https://mustafiz-codes.github.io/netflix-clone-react/"
+                href="https://mustafiz-codes.github.io/amazon-clone/"
               >
                 View Project
               </a>
             </p>
           </div>
-          
         </div>
       </div>
-      
-      
+
       <div className="single-work">
         <h2 className="work-title theme-color">Myriann</h2>
         <div className="row">
           <div className="col-md-5">
             <p className="work-details secondary-color">
-              Significant Features of Netflix Clone Script. User Registration.
-              Payment Gateway. User profile. Content search. Push Notifications.
-              Settings. Multiple language support. Admin panel or Admin
-              Dashboard
+              A client project where i developed all the user interface &
+              transition using html, css, bootstrap. Its fully responsive.
             </p>
             <ul className="technology primary-color">
-              <li>React Js</li>
-              <li>TMDB API</li>
-              <li>API Integration</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>Aos</li>
             </ul>
             <p className="viewProject">
               <a
                 target="blank"
-                href="https://mustafiz-codes.github.io/netflix-clone-react/"
+                href="https://mustafiz-codes.github.io/myriann-client/"
               >
                 View Project
               </a>
@@ -105,35 +97,29 @@ function Works() {
         </div>
       </div>
 
-      
       <div className="single-work">
         <h2 className="work-title theme-color">Airbnb-clone</h2>
         <div className="row">
-        <div className="col-md-7">
+          <div className="col-md-7">
             <img className="work-img" src={AirbnbImage} />
           </div>
           <div className="col-md-5">
             <p className="work-details secondary-color">
-              Significant Features of Netflix Clone Script. User Registration.
-              Payment Gateway. User profile. Content search. Push Notifications.
-              Settings. Multiple language support. Admin panel or Admin
-              Dashboard
+              A react based airbnb clone Ui where material UI implemented.
             </p>
             <ul className="technology primary-color">
               <li>React Js</li>
               <li>TMDB API</li>
-              <li>API Integration</li>
             </ul>
             <p className="viewProject">
               <a
                 target="blank"
-                href="https://mustafiz-codes.github.io/netflix-clone-react/"
+                href="https://mustafiz-codes.github.io/airbnb-clone/"
               >
                 View Project
               </a>
             </p>
           </div>
-          
         </div>
       </div>
     </div>

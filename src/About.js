@@ -50,6 +50,51 @@ function About() {
           </ul>
         </div>
       </div>
+
+      <div className="education">
+        <h2 className="section-title primary-color">
+          Education
+        </h2>
+        
+        <div className="single-degree">
+          <h2 className="theme-color degree-title">
+            Bechelor of Science
+          </h2>
+          <h4 className="primary-color degree-institute">
+            Leading University, Sylhet
+          </h4>
+          <p className="secondary-color degree-result"><span className="primary-color">3.57</span> of 4.00</p>
+          <p className="primary-color degree-details">
+            Four year undergratuation in <span className="theme-color">Computer Science & Engineering</span>. In my undergratutaion I was interested in <span className="theme-color">Computer Programming & Web Development</span> & perticipated in different <span className="theme-color">Hackathon Contest</span>
+          </p>
+        </div>
+        
+        <div className="single-degree">
+          <h2 className="theme-color degree-title">
+            Higher Secondary (H.S.C)
+          </h2>
+          <h4 className="primary-color degree-institute">
+            M.C.College
+          </h4>
+          <p className="secondary-color degree-result"><span className="primary-color">4.82</span> of 5.00</p>
+          <p className="primary-color degree-details">
+            Four year undergratuation in <span className="theme-color">Computer Science & Engineering</span>. In my undergratutaion I was interested in <span className="theme-color">Computer Programming & Web Development</span> & perticipated in different <span className="theme-color">Hackathon Contest</span>
+          </p>
+        </div>
+        
+        <div className="single-degree">
+          <h2 className="theme-color degree-title">
+            Secondary (S.S.C)
+          </h2>
+          <h4 className="primary-color degree-institute">
+            Blue Bird High School & College
+          </h4>
+          <p className="secondary-color degree-result"><span className="primary-color">5.00</span> of 5.00</p>
+          <p className="primary-color degree-details">
+            Four year undergratuation in <span className="theme-color">Computer Science & Engineering</span>. In my undergratutaion I was interested in <span className="theme-color">Computer Programming & Web Development</span> & perticipated in different <span className="theme-color">Hackathon Contest</span>
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

@@ -84,23 +84,26 @@
 .greetings{
     letter-spacing: .1cm;
     word-spacing: .2cm;
+    font-size: 24px;
 }
 
 .devName{
-    font-size: 48px;
+    font-size: 64px;
     font-weight: 600;
 }
 
 .dev_work{
-    margin: 10px 0px 30px;
+    margin: 30px 0px 50px;
 }
 
 .dev_title{
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 600;
 }
 .dev_description{
     width: 45%;
+    font-size: 24px;
+    margin: 20px 0 50px;
 }
 
 .contactButton{
@@ -108,6 +111,7 @@
     color:rgb(0, 255, 213) !important;
     padding: 10px 25px !important;
     border:1px solid rgb(0, 255, 213) !important;
+    font-size: 22px !important;
 }
 .contactButton:hover{
     background-color:rgba(0, 255, 213, 0.178) !important;
@@ -116,6 +120,7 @@
 /* section title */
 .section-title{
     margin-bottom: 5vh;
+    text-align: center;
 }
 
 /* about */
@@ -156,16 +161,39 @@
     margin: 10px 0;
 }
 
+/* education */
+.education{
+    margin-top: 10vh;
+}
+.education h2{
+    font-size: 40px;
+}
+
+.single-degree{
+    margin: 0 0 5%;
+}
+
+.degree-title{
+    font-size: 32px;
+}
+.degree-result{
+    font-size: 18px;
+}
+.degree-details {
+    font-size: 22px;
+}
+
+
 /* skills */
 .skills{
     min-height: 100vh;
     padding: 20vh 10% 5vh;
 }
 .skill-type{
-    margin-bottom: 50px;
+    margin-bottom: 10%;
 }
-.skill-title{
-    margin: 10px 0px 20px;
+.sub-title{
+    margin: 10% 0px 5%;
 }
 .skill-set{
     padding: 10px 20px 20px 0px ;
@@ -219,7 +247,7 @@ label{
     margin-bottom: 20px;
 }
 .work-details{
-    padding: 10px 0px;
+    padding: 20% 0px 10%;
 }
 .technology{
     display: flex;
@@ -252,4 +280,64 @@ label{
     padding: 10px 30px;
     text-decoration: none;
     background-color:rgba(0, 255, 213, 0.178) !important;
+}
+
+
+/* experiences */
+.experiences{
+    min-height: 100vh;
+    padding: 20vh 10% 5vh;
+}
+
+.job-experience{
+    margin: 10% 0 20%;
+}
+
+.single-experience{
+    margin: 5% 0;
+}
+.achievements{
+    margin: 10% 0;;
+}
+.job-duration, .job-responsibility{
+    font-size: 22px;
+}
+.single-achievement{
+    margin: 5% 0;
+}
+.achievement-event{
+    font-size: 22px;
+}
+
+/* contacts */
+.contacts{
+    min-height: 100vh;
+    padding: 20vh 10% 5vh;
+}
+
+
+.contact-heading{
+   font-size: 36px;
+   font-weight: 600;
+}
+
+.contact-description{
+    font-size: 22px;
+    margin: 3% 0;
+    padding: 0 15%;
+}
+
+.social-links{
+    margin: 10% 0;
+}
+
+
+.social-icon{
+    margin: 2% 0;
+    font-size: 22px;
+
+}
+.social-icon a{
+    text-decoration: none;
+    color: rgb(0, 255, 213);
 }
