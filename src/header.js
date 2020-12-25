@@ -3,7 +3,7 @@ import Button from '@material-ui/core/Button';
 import Logo from "./images/logo.png";
 import './css/style.css';
 
-function Header() {
+function header() {
   return (
     <div className="header">
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark primary-bg">
@@ -61,4 +61,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default header;
