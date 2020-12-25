@@ -1,15 +1,18 @@
 import React from "react";
-import Button from '@material-ui/core/Button';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Button from "@material-ui/core/Button";
 import Logo from "./images/logo.png";
-import './css/style.css';
+import "./css/style.css";
 
 function Header() {
   return (
     <div className="header">
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark primary-bg">
-        <a class="navbar-brand" href="/">
-          <img src={Logo} />
-        </a>
+        <Link className="header-link" to="/">
+          <a class="navbar-brand">
+            <img src={Logo} />
+          </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -24,37 +27,53 @@ function Header() {
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link primary-color" href="/about">
-                <span className="theme-color">01. </span>About
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link primary-color" href="/skills">
-                <span className="theme-color">02. </span>Skills
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link primary-color" href="/works">
-                <span className="theme-color">03. </span>Works
-              </a>
-            </li>
+            <Link className="header-link" to="/about">
+              <li class="nav-item">
+                <a class="nav-link primary-color" href="/about">
+                  <span className="theme-color">01. </span>About
+                </a>
+              </li>
+            </Link>
 
-            <li class="nav-item">
-              <a class="nav-link primary-color" href="#">
-                <span className="theme-color">04. </span>Experiences & Achievements
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link primary-color" href="#">
-                <span className="theme-color">05. </span>Contacts
-              </a>
-            </li>
+            <Link className="header-link" to="/skills">
+              <li class="nav-item">
+                <a class="nav-link primary-color" href="/skills">
+                  <span className="theme-color">02. </span>Skills
+                </a>
+              </li>
+            </Link>
+            <Link className="header-link" to="/works">
+              <li class="nav-item">
+                <a class="nav-link primary-color" href="/works">
+                  <span className="theme-color">03. </span>Works
+                </a>
+              </li>
+            </Link>
+            <Link className="header-link" to="/">
+              <li class="nav-item">
+                <a class="nav-link primary-color" href="#">
+                  <span className="theme-color">04. </span>Experiences &
+                  Achievements
+                </a>
+              </li>
+            </Link>
+            <Link className="header-link" to="/">
+              <li class="nav-item">
+                <a class="nav-link primary-color" href="#">
+                  <span className="theme-color">05. </span>Contacts
+                </a>
+              </li>
+            </Link>
           </ul>
-          <Button href="#" target="blank" variant="outlined" color="primary" className="resumeButton">
-          resume
-        </Button>
-          
+          <Button
+            href="#"
+            target="blank"
+            variant="outlined"
+            color="primary"
+            className="resumeButton"
+          >
+            resume
+          </Button>
         </div>
       </nav>
     </div>

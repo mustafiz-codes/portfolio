@@ -50,6 +50,9 @@
     width: 100%;
 }
 /* header */
+.header-link:hover{
+    text-decoration: none;
+}
 
 .resumeButton{
     font-size: 1em !important;
