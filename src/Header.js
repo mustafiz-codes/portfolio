@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 import Logo from "./images/logo.png";
 import "./css/style.css";
@@ -29,7 +29,7 @@ function Header() {
           <ul class="navbar-nav ml-auto">
             <Link className="header-link" to="/about">
               <li class="nav-item">
-                <a class="nav-link primary-color" href="/about">
+                <a class="nav-link primary-color">
                   <span className="theme-color">01. </span>About
                 </a>
               </li>
@@ -37,21 +37,21 @@ function Header() {
 
             <Link className="header-link" to="/skills">
               <li class="nav-item">
-                <a class="nav-link primary-color" href="/skills">
+                <a class="nav-link primary-color">
                   <span className="theme-color">02. </span>Skills
                 </a>
               </li>
             </Link>
             <Link className="header-link" to="/works">
               <li class="nav-item">
-                <a class="nav-link primary-color" href="/works">
+                <a class="nav-link primary-color">
                   <span className="theme-color">03. </span>Works
                 </a>
               </li>
             </Link>
             <Link className="header-link" to="/">
               <li class="nav-item">
-                <a class="nav-link primary-color" href="#">
+                <a class="nav-link primary-color">
                   <span className="theme-color">04. </span>Experiences &
                   Achievements
                 </a>
@@ -59,7 +59,7 @@ function Header() {
             </Link>
             <Link className="header-link" to="/">
               <li class="nav-item">
-                <a class="nav-link primary-color" href="#">
+                <a class="nav-link primary-color" >
                   <span className="theme-color">05. </span>Contacts
                 </a>
               </li>
