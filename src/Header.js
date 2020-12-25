@@ -25,17 +25,17 @@ function Header() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link primary-color" href="/About">
+              <a class="nav-link primary-color" href="/about">
                 <span className="theme-color">01. </span>About
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link primary-color" href="/Skills">
+              <a class="nav-link primary-color" href="/skills">
                 <span className="theme-color">02. </span>Skills
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link primary-color" href="/Works">
+              <a class="nav-link primary-color" href="/works">
                 <span className="theme-color">03. </span>Works
               </a>
             </li>
