@@ -1,11 +1,5 @@
 @media only screen and (max-width: 767px) {
     
-    
-    .resumeButton{
-    }
-    .resumeButton:hover{
-    }
-
     .nav-link, .nav-button{ 
         text-align: center !important;
     }
@@ -13,16 +7,7 @@
         font-size: 18px;
         margin: 10px 15px !important;
     }
-    .nav-link:hover{
-    }
-    
     /* home */
-    
-    .greetings{
-        letter-spacing: .1cm;
-        word-spacing: .2cm;
-        font-size: 24px;
-    }
     
     .devName{
         font-size: 48px;
@@ -39,7 +24,7 @@
     }
     .dev_description{
         width: 100%;
-        font-size: 24px;
+        font-size: 22px;
         margin: 20px 0 50px;
     }
     .home-button{
@@ -63,18 +48,18 @@
     
     .about{
         min-height: 100vh;
-        padding: 20vh 10% 5vh;
+        padding: 20vh 0 5vh;
+        text-align: center;
     }
     
     
     .profile-img {
         display: flex;
         justify-content: center;
+        margin-bottom: 50px;
     }
     .profile-img img{
         background-color: grey;
-        height: 400px;
-        width: 300px;
         border-radius: 15px;
         background-image: linear-gradient(
           rgba(41, 35, 8, 0.5),
@@ -83,8 +68,6 @@
     }
     .profile-img img:hover{
         background-color: grey;
-        height: 400px;
-        width: 300px;
         border-radius: 15px;
     }
     
@@ -102,11 +85,11 @@
         margin-top: 10vh;
     }
     .education h2{
-        font-size: 40px;
+        font-size: 32px;
     }
     
     .single-degree{
-        margin: 0 0 5%;
+        margin: 15% 0;
     }
     
     .degree-title{
@@ -123,58 +106,25 @@
     /* skills */
     .skills{
         min-height: 100vh;
-        padding: 20vh 10% 5vh;
+        padding: 20vh 0 5vh;
     }
     .skill-type{
-        margin-bottom: 10%;
+        margin-bottom: 50px;
     }
     .sub-title{
-        margin: 10% 0px 5%;
+        margin: 10% 0px 10%;
     }
-    .skill-set{
-        padding: 10px 20px 20px 0px ;
-    }
-    
-    label{
-        color: white;
-    }
-    
-    .meter { 
-        height: 15px;  /* Can be anything */
-        position: relative;
-        background: #555;
-        -moz-border-radius: 25px;
-        -webkit-border-radius: 25px;
-        border-radius: 25px;
-        padding: 0px;
-        box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
-    }
-    
-    .meter .progress {
-        display: block;
-        height: 100%;
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
-        background-color: rgb(0, 255, 213);
-        background-image: linear-gradient(
-          center bottom,
-          rgb(0, 255, 213) 90%,
-          rgb(0, 255, 213) 90%
-        );
-        box-shadow: 
-          inset 0 2px 9px  rgba(255,255,255,0.3),
-          inset 0 -2px 6px rgba(0,0,0,0.4);
-        position: absolute;
-        overflow: hidden;
-      }
     
       
     /* works */
     .works{
         min-height: 100vh;
-        padding: 20vh 10% 5vh;
+        padding: 20vh 0% 5vh;
+        text-align: center;
+    }
+    .flex-rev{
+        display: flex;
+        flex-direction: column-reverse;
     }
     .single-work{
         margin-bottom: 100px;
@@ -183,16 +133,19 @@
         margin-bottom: 20px;
     }
     .work-details{
-        padding: 20% 0px 10%;
+        padding: 10% 0px 5%;
+        font-size: 22px;
     }
     .technology{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        font-size: 22px;
+        
     }
-    
     .technology li{
         list-style-type: none;
-        margin: 0px 15px 0px 0px;
+        padding: 0px 0px 5px;
+        margin: 0;
     }
     .work-img{
         width: 100%;
@@ -201,36 +154,29 @@
     }
     
     .viewProject{
-        margin-top: 50px;
+        margin-top: 20px;
+        width: 100%;
+        font-size: 22px;
     }
     
-    .viewProject a{
-        color: rgb(0, 255, 213);
-        border: 1px solid  rgb(0, 255, 213);
-        padding: 10px 30px;
-        text-decoration: none;
-    }
-    .viewProject a:hover{
-        color: rgb(0, 255, 213);
-        border: 1px solid  rgb(0, 255, 213);
-        padding: 10px 30px;
-        text-decoration: none;
-        background-color:rgba(0, 255, 213, 0.178) !important;
-    }
     
     
     /* experiences */
     .experiences{
         min-height: 100vh;
-        padding: 20vh 10% 5vh;
+        padding: 20vh 0% 5vh;
+        text-align: center;
     }
     
     .job-experience{
         margin: 10% 0 20%;
     }
+    .job-responsibility{
+        font-size: 22px;
+    }
     
     .single-experience{
-        margin: 5% 0;
+        margin: 10% 0%;
     }
     .achievements{
         margin: 10% 0;;
@@ -239,7 +185,10 @@
         font-size: 22px;
     }
     .single-achievement{
-        margin: 5% 0;
+        margin: 15% 0;
+    }
+    .achievement-position{
+        font-size: 32px;
     }
     .achievement-event{
         font-size: 22px;
@@ -248,7 +197,7 @@
     /* contacts */
     .contacts{
         min-height: 100vh;
-        padding: 20vh 10% 5vh;
+        padding: 20vh 0% 5vh;
     }
     
     
@@ -259,22 +208,24 @@
     
     .contact-description{
         font-size: 22px;
-        margin: 3% 0;
-        padding: 0 15%;
+        margin: 10% 0;
+        padding: 0;
     }
     
     .social-links{
         margin: 10% 0;
     }
+    .social-title{
+        margin: 15% 0 10%;
+    }
     
     
     .social-icon{
-        margin: 2% 0;
+        margin: 3% 0;
         font-size: 22px;
     
     }
     .social-icon a{
         text-decoration: none;
-        color: rgb(0, 255, 213);
     }
 } 

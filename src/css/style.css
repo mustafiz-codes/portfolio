@@ -4,7 +4,7 @@
 }
 
 .theme-bg{
-    background-color:rgb(0, 255, 213) ;
+    background-color:#8ad8ed ;
 }
 
 .theme-color{
@@ -36,7 +36,7 @@
     width: 50%;
 }
 .width-60{
-    width: 50%;
+    width: 60%;
 }
 .width-70{
     width: 70%;
@@ -86,8 +86,8 @@
 }
 
 .greetings{
-    letter-spacing: .1cm;
-    word-spacing: .2cm;
+    letter-spacing: .05cm;
+    word-spacing: .05cm;
     font-size: 24px;
 }
 
@@ -141,19 +141,13 @@
 }
 .profile-img img{
     background-color: grey;
-    height: 400px;
-    width: 300px;
+    width: 100%;
+    height: 100%;
     border-radius: 15px;
     background-image: linear-gradient(
       rgba(41, 35, 8, 0.5),
       rgba(255, 215, 15, 0.5)
     )
-}
-.profile-img img:hover{
-    background-color: grey;
-    height: 400px;
-    width: 300px;
-    border-radius: 15px;
 }
 
 .about-me{
@@ -162,7 +156,7 @@
 
 .about ul li{
     list-style-type: none;
-    margin: 10px 0;
+    margin: 10px 0 5px;
 }
 
 /* education */
@@ -208,14 +202,14 @@ label{
 }
 
 .meter { 
-	height: 15px;  /* Can be anything */
-	position: relative;
-	background: #555;
-	-moz-border-radius: 25px;
-	-webkit-border-radius: 25px;
-	border-radius: 25px;
-	padding: 0px;
-	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+    height: 15px;  /* Can be anything */
+    position: relative;
+    background: #555;
+    border: 0px solid #555;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    padding: 0px;
 }
 
 .meter .progress {
@@ -225,7 +219,7 @@ label{
     border-bottom-right-radius: 8px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    background-color: rgb(0, 255, 213);
+    background-color: #8ad8ed;
     background-image: linear-gradient(
       center bottom,
       rgb(0, 255, 213) 90%,
@@ -248,7 +242,7 @@ label{
     margin-bottom: 100px;
 }
 .work-title {
-    margin-bottom: 20px;
+    font-size: 36px;
 }
 .work-details{
     padding: 20% 0px 10%;
@@ -273,17 +267,17 @@ label{
 }
 
 .viewProject a{
-    color: rgb(0, 255, 213);
-    border: 1px solid  rgb(0, 255, 213);
+    color: #8ad8ed;
+    border: 1px solid  #8ad8ed;
     padding: 10px 30px;
     text-decoration: none;
 }
 .viewProject a:hover{
-    color: rgb(0, 255, 213);
-    border: 1px solid  rgb(0, 255, 213);
+    color: #8ad8ed;
+    border: 1px solid  #8ad8ed;
     padding: 10px 30px;
     text-decoration: none;
-    background-color:rgba(0, 255, 213, 0.178) !important;
+    background-color:#8ad7ed31 !important;
 }
 
 
@@ -343,5 +337,5 @@ label{
 }
 .social-icon a{
     text-decoration: none;
-    color: rgb(0, 255, 213);
+    color: #8ad8ed;
 }

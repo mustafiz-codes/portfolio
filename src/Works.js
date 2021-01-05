@@ -13,7 +13,7 @@ function Works() {
 
       <div className="single-work">
         <h2 className="work-title theme-color">Netflix-clone</h2>
-        <div className="row">
+        <div className="row flex-rev">
           <div className="col-md-5">
             <p className="work-details secondary-color">
               Significant Features of Netflix Clone Script. Practiced api
@@ -70,7 +70,7 @@ function Works() {
 
       <div className="single-work">
         <h2 className="work-title theme-color">Myriann</h2>
-        <div className="row">
+        <div className="row flex-rev">
           <div className="col-md-5">
             <p className="work-details secondary-color">
               A client project where i developed all the user interface &
@@ -109,7 +109,7 @@ function Works() {
             </p>
             <ul className="technology primary-color">
               <li>React Js</li>
-              <li>TMDB API</li>
+              <li>Material Ui</li>
             </ul>
             <p className="viewProject">
               <a

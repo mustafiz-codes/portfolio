@@ -91,6 +91,22 @@ function Skills() {
               </div>
             </div>
           </div>
+          <div className="col-md-6">
+            <div className="skill-set">
+              <label>MySQL</label>
+              <div className="meter">
+                <div className="progress width-60"></div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="skill-set">
+              <label>Php</label>
+              <div className="meter">
+                <div className="progress width-50"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
