@@ -66,6 +66,7 @@ function Header() {
               </li>
             </Link>
           </ul>
+          <div className="nav-button">
           <a href={CV} download="mustafizur_cv.pdf">
             <Button
               target="blank"
@@ -77,6 +78,7 @@ function Header() {
               get my cv
             </Button>
             </a>
+            </div>
         </div>
       </nav>
     </div>

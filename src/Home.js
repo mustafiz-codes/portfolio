@@ -15,6 +15,7 @@ function Home() {
           between.
         </p>
       </div>
+      <div className="home-button">
       <Button
         href="mailto:js.mustafiz@gmail.com"
         variant="outlined"
@@ -23,6 +24,7 @@ function Home() {
       >
         Get in Touch
       </Button>
+      </div>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 .primary-bg{
-    background-color: #0e1520 ;
+    /* background-color: #0e1520 ; */
+    background-color: #0c1d25 ;
 }
 
 .theme-bg{
@@ -7,15 +8,15 @@
 }
 
 .theme-color{
-    color: rgb(0, 255, 213) !important; 
+    color: #d1dde6 !important; 
 }
 
 .primary-color{
-    color: #eaefff !important; 
+    color: #8ad8ed !important; 
 }
 
 .secondary-color{
-    color: #d6d6d6bb !important;
+    color: #838b96 !important;
 }
 
 
@@ -53,14 +54,17 @@
 .header-link:hover{
     text-decoration: none;
 }
-
+.nav-button a{
+    text-decoration: none;
+}
 .resumeButton{
     font-size: 1em !important;
-    color:rgb(0, 255, 213) !important;
-    border:1px solid rgb(0, 255, 213) !important;
+    color: #8ad8ed !important;
+    border:1px solid #8ad8ed !important;
 }
 .resumeButton:hover{
-    background-color:rgba(0, 255, 213, 0.178) !important;
+    background-color:#8ad7ed31 !important;
+
 }
 
 .nav-link{
@@ -68,7 +72,7 @@
     margin: 10px 15px !important;
 }
 .nav-link:hover{
-    color: rgb(0, 255, 213) !important;
+    color: #8ad7edd8 !important;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     transition-delay: .5s;
 }
@@ -108,13 +112,13 @@
 
 .contactButton{
     font-size: 1em !important;
-    color:rgb(0, 255, 213) !important;
+    color:#8ad8ed !important;
     padding: 10px 25px !important;
-    border:1px solid rgb(0, 255, 213) !important;
+    border:1px solid #8ad8ed !important;
     font-size: 22px !important;
 }
 .contactButton:hover{
-    background-color:rgba(0, 255, 213, 0.178) !important;
+    background-color:#8ad7ed31 !important;
 }
 
 /* section title */
