@@ -8,7 +8,9 @@
         margin: 10px 15px !important;
     }
     /* home */
-    
+    .home{
+        text-align: center;
+    }
     .devName{
         font-size: 48px;
         font-weight: 600;
